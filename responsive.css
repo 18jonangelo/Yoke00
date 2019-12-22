@@ -7,7 +7,6 @@
 
   body, html {
     /* height: 100%!important; */
-    overflow: auto !important;
     max-height: 100% !important;
 
     background-color: #EAC62A !important;
@@ -541,7 +540,7 @@ ipad pro */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
   body, html {
     /* height: 100%!important; */
-    overflow: auto !important;
+    /* overflow: auto !important; */
     max-height: 100% !important;
   }
 
@@ -594,7 +593,10 @@ ipad pro */
 iphone */
 @media only screen and (min-device-width: 375px) and (max-device-width: 414px) and (orientation: portrait) {
 
-
+.footiphone{
+position: absolute;
+top:850px;
+}
 .footfour{
   position: relative;
   bottom:10px;
